@@ -1,0 +1,71 @@
+.about__form__btn {
+	font-size: 23px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: $black2;
+	background-color: $gray;
+	border: none;
+	padding: 20px 5px;
+	transition: .1s;
+	margin: 18px 0 0 0;
+
+	&:active {
+		background-color: darken($gray, 5%);
+		transition: .1s;
+	}
+
+	@media (max-width: 1700px) {
+		font-size: 18px;
+		padding: 15px 5px;
+		margin: 14px 0 0;
+	}
+}
+
+.visit__btn {
+	background-color: $bkue_dk2;
+	color: $white;
+	max-width: 380px;
+	width: 100%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: 'avante', Arial, Helvetica, sans-serif;
+	font-size: 31px;
+	letter-spacing: 5px;
+	border-radius: 5px;
+	height: 90px;
+	margin-left: auto;
+	transition: .2s;
+	margin-right: 90px;
+
+	&:hover {
+		background-color: lighten($bkue_dk2, 5%);
+		transition: .2s;
+		cursor: pointer;
+	}
+
+	&:active {
+		background-color: darken($bkue_dk2, 5%);
+		transition: .1s;
+	}
+
+	@media (max-width: 1700px) {
+		margin-right: 40px;
+		font-size: 23px;
+		height: 65px;
+		max-width: 280px;
+		letter-spacing: 4px;
+		margin-top: 10px;
+	}
+
+	@media (max-width: 992px) {
+		margin: 10px 0 0 0;
+	}
+
+	@media (max-width: 550px) {
+		margin: 10px auto;
+	}
+}
